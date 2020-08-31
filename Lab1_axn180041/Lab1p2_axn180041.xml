@@ -1,0 +1,12 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://utdallas/someuri">
+    <rdf:type>http://utdallas/semclass</rdf:type>
+    <vcard:EMAIL>May.Westford@consolidatedsem.com</vcard:EMAIL>
+    <vcard:BDAY>March 28, 1965</vcard:BDAY>
+    <vcard:ORG>Consolidated Semantics, U.S.</vcard:ORG>
+    <vcard:TITLE>North America Division Vice President</vcard:TITLE>
+    <vcard:FN>Dr. May Westford</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>

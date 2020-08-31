@@ -1,0 +1,40 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Nazneen Amtul</foaf:name>
+<foaf:title>Miss</foaf:title>
+<foaf:givenname>Nazneen</foaf:givenname>
+<foaf:family_name>Amtul</foaf:family_name>
+<foaf:nick>Amtul</foaf:nick>
+<foaf:mbox rdf:resource="mailto:nanusmily@gmail.com"/>
+<foaf:homepage rdf:resource="https://personal.utdallas.edu/~axn180041/"/>
+<foaf:depiction rdf:resource="amtul.jpg"/>
+<foaf:phone rdf:resource="tel:5556789087"/>
+<foaf:workplaceHomepage rdf:resource="http://tl9000.org"/>
+<foaf:workInfoHomepage rdf:resource="https://personal.utdallas.edu/~hxk180032/#expertise"/>
+<foaf:schoolHomepage rdf:resource="http://www.utdallas.edu"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Kitty Pride</foaf:name>
+<foaf:mbox rdf:resource="mailto:nanusmily@gmail.com"/>
+<rdfs:seeAlso rdf:resource="http://xmen.com"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Ororo Munroe</foaf:name>
+<foaf:mbox rdf:resource="mailto:ororo@hotmail.com"/>
+<rdfs:seeAlso rdf:resource="http://zmen.com"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Raven Rogue</foaf:name>
+<foaf:mbox rdf:resource="mailto:raven@utdallas.edu"/>
+<rdfs:seeAlso rdf:resource="http://ymen.com"/></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>

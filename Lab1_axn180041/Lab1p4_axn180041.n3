@@ -1,0 +1,71 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<http://org.semwebprogramming/chapter2/people>
+        a                     foaf:PersonalProfileDocument ;
+        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
+        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
+        foaf:maker            <http://org.semwebprogramming/chapter2/people#me> ;
+        foaf:primaryTopic     <http://org.semwebprogramming/chapter2/people#me> .
+
+<http://org.semwebprogramming/chapter2/people#me>
+        a                       foaf:Person ;
+        foaf:depiction          <http://org.semwebprogramming/chapter2/amtul.jpg> ;
+        foaf:family_name        "Amtul" ;
+        foaf:givenname          "Nazneen" ;
+        foaf:homepage           <https://personal.utdallas.edu/~axn180041/> ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://xmen.com> ;
+                                  foaf:mbox     <mailto:nanusmily@gmail.com> ;
+                                  foaf:name     "Kitty Pride"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://zmen.com> ;
+                                  foaf:mbox     <mailto:ororo@hotmail.com> ;
+                                  foaf:name     "Ororo Munroe"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://ymen.com> ;
+                                  foaf:mbox     <mailto:raven@utdallas.edu> ;
+                                  foaf:name     "Raven Rogue"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://xmen.com> ;
+                                  foaf:mbox     <mailto:nanusmily@gmail.com> ;
+                                  foaf:name     "Kitty Pride"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://zmen.com> ;
+                                  foaf:mbox     <mailto:ororo@hotmail.com> ;
+                                  foaf:name     "Ororo Munroe"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://ymen.com> ;
+                                  foaf:mbox     <mailto:raven@utdallas.edu> ;
+                                  foaf:name     "Raven Rogue"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://xmen.com> ;
+                                  foaf:mbox     <mailto:nanusmily@gmail.com> ;
+                                  foaf:name     "Kitty Pride"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://zmen.com> ;
+                                  foaf:mbox     <mailto:ororo@hotmail.com> ;
+                                  foaf:name     "Ororo Munroe"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://ymen.com> ;
+                                  foaf:mbox     <mailto:raven@utdallas.edu> ;
+                                  foaf:name     "Raven Rogue"
+                                ] ;
+        foaf:mbox               <mailto:nanusmily@gmail.com> ;
+        foaf:name               "Nazneen Amtul" ;
+        foaf:nick               "Amtul" ;
+        foaf:phone              <tel:5556789087> ;
+        foaf:schoolHomepage     <http://www.utdallas.edu> ;
+        foaf:title              "Miss" ;
+        foaf:workInfoHomepage   <https://personal.utdallas.edu/~hxk180032/#expertise> ;
+        foaf:workplaceHomepage  <http://tl9000.org> .

@@ -8,6 +8,11 @@
 *.ctxt
 *.classpath
 *.project
+*.settings
+/.classpath
+/.project
+/.settings/org.eclipse.jdt.core.prefs
+/.settings/org.maven.ide.eclipse.prefs
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 .DS_Store

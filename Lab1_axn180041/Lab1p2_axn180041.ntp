@@ -1,0 +1,6 @@
+<http://utdallas/someuri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://utdallas/semclass" .
+<http://utdallas/someuri> <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL> "May.Westford@consolidatedsem.com" .
+<http://utdallas/someuri> <http://www.w3.org/2001/vcard-rdf/3.0#BDAY> "March 28, 1965" .
+<http://utdallas/someuri> <http://www.w3.org/2001/vcard-rdf/3.0#ORG> "Consolidated Semantics, U.S." .
+<http://utdallas/someuri> <http://www.w3.org/2001/vcard-rdf/3.0#TITLE> "North America Division Vice President" .
+<http://utdallas/someuri> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Dr. May Westford" .

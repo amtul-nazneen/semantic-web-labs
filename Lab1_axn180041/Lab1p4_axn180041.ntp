@@ -1,0 +1,63 @@
+<http://org.semwebprogramming/chapter2/people> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/PersonalProfileDocument> .
+<http://org.semwebprogramming/chapter2/people> <http://xmlns.com/foaf/0.1/maker> <http://org.semwebprogramming/chapter2/people#me> .
+<http://org.semwebprogramming/chapter2/people> <http://xmlns.com/foaf/0.1/primaryTopic> <http://org.semwebprogramming/chapter2/people#me> .
+<http://org.semwebprogramming/chapter2/people> <http://webns.net/mvcb/generatorAgent> <http://www.ldodds.com/foaf/foaf-a-matic> .
+<http://org.semwebprogramming/chapter2/people> <http://webns.net/mvcb/errorReportsTo> <mailto:leigh@ldodds.com> .
+<http://org.semwebprogramming/chapter2/people#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/name> "Nazneen Amtul" .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/title> "Miss" .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/givenname> "Nazneen" .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/family_name> "Amtul" .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/nick> "Amtul" .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/mbox> <mailto:nanusmily@gmail.com> .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/homepage> <https://personal.utdallas.edu/~axn180041/> .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/depiction> <http://org.semwebprogramming/chapter2/amtul.jpg> .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/phone> <tel:5556789087> .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/workplaceHomepage> <http://tl9000.org> .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/workInfoHomepage> <https://personal.utdallas.edu/~hxk180032/#expertise> .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/schoolHomepage> <http://www.utdallas.edu> .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/knows> _:Bf9c73436X2D8bb8X2D476aX2Db084X2D24b6d55c27c8 .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/knows> _:B05978e62X2D41c5X2D4e80X2Da87aX2D105f21976c68 .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/knows> _:B46338194X2D7d02X2D4569X2Da481X2Df2cf4281e453 .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/knows> _:B77e835f2X2D47e1X2D4a5dX2Dab21X2D1534538e5feb .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/knows> _:Be39f5d72X2Dec75X2D43f1X2Db282X2D49e3ec442530 .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/knows> _:Bd440f08dX2D04e6X2D461eX2Da486X2Dd60244d856ca .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/knows> _:Baf5ea638X2D7dacX2D4f92X2D8983X2Df594495c5da0 .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/knows> _:Be0f81624X2Da1d9X2D4697X2Db618X2Dd32afa35baa7 .
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/knows> _:Bceac6543X2Dd524X2D4139X2Da649X2D291c96934c28 .
+_:Bf9c73436X2D8bb8X2D476aX2Db084X2D24b6d55c27c8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:Bf9c73436X2D8bb8X2D476aX2Db084X2D24b6d55c27c8 <http://xmlns.com/foaf/0.1/name> "Kitty Pride" .
+_:Bf9c73436X2D8bb8X2D476aX2Db084X2D24b6d55c27c8 <http://xmlns.com/foaf/0.1/mbox> <mailto:nanusmily@gmail.com> .
+_:Bf9c73436X2D8bb8X2D476aX2Db084X2D24b6d55c27c8 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://xmen.com> .
+_:B05978e62X2D41c5X2D4e80X2Da87aX2D105f21976c68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:B05978e62X2D41c5X2D4e80X2Da87aX2D105f21976c68 <http://xmlns.com/foaf/0.1/name> "Ororo Munroe" .
+_:B05978e62X2D41c5X2D4e80X2Da87aX2D105f21976c68 <http://xmlns.com/foaf/0.1/mbox> <mailto:ororo@hotmail.com> .
+_:B05978e62X2D41c5X2D4e80X2Da87aX2D105f21976c68 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://zmen.com> .
+_:B46338194X2D7d02X2D4569X2Da481X2Df2cf4281e453 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:B46338194X2D7d02X2D4569X2Da481X2Df2cf4281e453 <http://xmlns.com/foaf/0.1/name> "Raven Rogue" .
+_:B46338194X2D7d02X2D4569X2Da481X2Df2cf4281e453 <http://xmlns.com/foaf/0.1/mbox> <mailto:raven@utdallas.edu> .
+_:B46338194X2D7d02X2D4569X2Da481X2Df2cf4281e453 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ymen.com> .
+_:B77e835f2X2D47e1X2D4a5dX2Dab21X2D1534538e5feb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:B77e835f2X2D47e1X2D4a5dX2Dab21X2D1534538e5feb <http://xmlns.com/foaf/0.1/name> "Kitty Pride" .
+_:B77e835f2X2D47e1X2D4a5dX2Dab21X2D1534538e5feb <http://xmlns.com/foaf/0.1/mbox> <mailto:nanusmily@gmail.com> .
+_:B77e835f2X2D47e1X2D4a5dX2Dab21X2D1534538e5feb <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://xmen.com> .
+_:Be39f5d72X2Dec75X2D43f1X2Db282X2D49e3ec442530 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:Be39f5d72X2Dec75X2D43f1X2Db282X2D49e3ec442530 <http://xmlns.com/foaf/0.1/name> "Ororo Munroe" .
+_:Be39f5d72X2Dec75X2D43f1X2Db282X2D49e3ec442530 <http://xmlns.com/foaf/0.1/mbox> <mailto:ororo@hotmail.com> .
+_:Be39f5d72X2Dec75X2D43f1X2Db282X2D49e3ec442530 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://zmen.com> .
+_:Bd440f08dX2D04e6X2D461eX2Da486X2Dd60244d856ca <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:Bd440f08dX2D04e6X2D461eX2Da486X2Dd60244d856ca <http://xmlns.com/foaf/0.1/name> "Raven Rogue" .
+_:Bd440f08dX2D04e6X2D461eX2Da486X2Dd60244d856ca <http://xmlns.com/foaf/0.1/mbox> <mailto:raven@utdallas.edu> .
+_:Bd440f08dX2D04e6X2D461eX2Da486X2Dd60244d856ca <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ymen.com> .
+_:Baf5ea638X2D7dacX2D4f92X2D8983X2Df594495c5da0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:Baf5ea638X2D7dacX2D4f92X2D8983X2Df594495c5da0 <http://xmlns.com/foaf/0.1/name> "Kitty Pride" .
+_:Baf5ea638X2D7dacX2D4f92X2D8983X2Df594495c5da0 <http://xmlns.com/foaf/0.1/mbox> <mailto:nanusmily@gmail.com> .
+_:Baf5ea638X2D7dacX2D4f92X2D8983X2Df594495c5da0 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://xmen.com> .
+_:Be0f81624X2Da1d9X2D4697X2Db618X2Dd32afa35baa7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:Be0f81624X2Da1d9X2D4697X2Db618X2Dd32afa35baa7 <http://xmlns.com/foaf/0.1/name> "Ororo Munroe" .
+_:Be0f81624X2Da1d9X2D4697X2Db618X2Dd32afa35baa7 <http://xmlns.com/foaf/0.1/mbox> <mailto:ororo@hotmail.com> .
+_:Be0f81624X2Da1d9X2D4697X2Db618X2Dd32afa35baa7 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://zmen.com> .
+_:Bceac6543X2Dd524X2D4139X2Da649X2D291c96934c28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:Bceac6543X2Dd524X2D4139X2Da649X2D291c96934c28 <http://xmlns.com/foaf/0.1/name> "Raven Rogue" .
+_:Bceac6543X2Dd524X2D4139X2Da649X2D291c96934c28 <http://xmlns.com/foaf/0.1/mbox> <mailto:raven@utdallas.edu> .
+_:Bceac6543X2Dd524X2D4139X2Da649X2D291c96934c28 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://ymen.com> .
