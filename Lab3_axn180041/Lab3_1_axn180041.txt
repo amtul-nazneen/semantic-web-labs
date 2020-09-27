@@ -1,0 +1,49 @@
+                   									******** SPARQL Queries *****************
+
+1. A query that gives the subject IRI where the formatted name is Jane Smith.
+SELECT ?x
+WHERE { ?x  <http://www.w3.org/2001/vcard-rdf/3.0#FN>  "Jane Smith" }
+=============================================================================================
+
+2. A query that lists all the formatted names in the data.
+SELECT ?z
+WHERE { ?x  <http://www.w3.org/2001/vcard-rdf/3.0#FN>  ?z }
+=============================================================================================
+
+3. A query that lists the IRIs, formatted names, and ages of all people for which we have both formatted name and age.
+PREFIX info:    <http://somewhere/peopleInfo#>
+PREFIX vcard:   <http://www.w3.org/2001/vcard-rdf/3.0#>
+SELECT ?name ?age
+WHERE
+{
+    ?person vcard:FN  ?name .
+    ?person info:age ?age .
+}
+=============================================================================================
+
+4.  A query that lists a person’s IRI, formatted name, and age of people whose age is 25 or more.
+PREFIX info:    <http://somewhere/peopleInfo#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX vcard:   <http://www.w3.org/2001/vcard-rdf/3.0#>
+SELECT ?name ?age
+WHERE
+{
+    ?person vcard:FN  ?name .
+    ?person info:age ?age . 
+FILTER (xsd:integer(?age) >= 25)
+}
+=============================================================================================
+
+5. A query to list the IRI and given names of all people for which we have both formatted name and age.
+Query: 
+PREFIX info:    <http://somewhere/peopleInfo#>
+PREFIX vcard:   <http://www.w3.org/2001/vcard-rdf/3.0#>
+SELECT ?given ?person
+WHERE
+{
+
+    ?person vcard:N  ?name .
+    ?name vcard:Given ?given .
+    ?person info:age ?age .
+}
+=============================================================================================
