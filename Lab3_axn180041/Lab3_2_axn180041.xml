@@ -43,74 +43,6 @@
     </result>
     <result>
       <binding name="p1">
-        <uri>http://www.w3.org/2001/vcard-rdf/3.0#ADR</uri>
-      </binding>
-      <binding name="o1">
-        <bnode>b0</bnode>
-      </binding>
-      <binding name="p2">
-        <uri>http://www.w3.org/2003/01/geo/wgs84_pos#Point</uri>
-      </binding>
-      <binding name="o2">
-        <bnode>b1</bnode>
-      </binding>
-      <binding name="p3">
-        <uri>http://www.w3.org/2003/01/geo/wgs84_pos#long</uri>
-      </binding>
-      <binding name="o3">
-        <literal>76.912628</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="p1">
-        <uri>http://www.w3.org/2001/vcard-rdf/3.0#ADR</uri>
-      </binding>
-      <binding name="o1">
-        <bnode>b0</bnode>
-      </binding>
-      <binding name="p2">
-        <uri>http://www.w3.org/2003/01/geo/wgs84_pos#Point</uri>
-      </binding>
-      <binding name="o2">
-        <bnode>b1</bnode>
-      </binding>
-      <binding name="p3">
-        <uri>http://www.w3.org/2003/01/geo/wgs84_pos#lat</uri>
-      </binding>
-      <binding name="o3">
-        <literal>43.255051</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="p1">
-        <uri>http://www.w3.org/2001/vcard-rdf/3.0#ADR</uri>
-      </binding>
-      <binding name="o1">
-        <bnode>b0</bnode>
-      </binding>
-      <binding name="p2">
-        <uri>http://www.w3.org/2001/vcard-rdf/3.0#Country</uri>
-      </binding>
-      <binding name="o2">
-        <literal>Kazakhstan</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="p1">
-        <uri>http://www.w3.org/2001/vcard-rdf/3.0#ADR</uri>
-      </binding>
-      <binding name="o1">
-        <bnode>b0</bnode>
-      </binding>
-      <binding name="p2">
-        <uri>http://www.w3.org/2001/vcard-rdf/3.0#Locality</uri>
-      </binding>
-      <binding name="o2">
-        <literal>Almaty</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="p1">
         <uri>http://blackbook.com/terms#incidentDescription</uri>
       </binding>
       <binding name="o1">
@@ -235,6 +167,74 @@
       </binding>
       <binding name="o1">
         <literal>[A] “Concern over Kazakhstan Bio-theft Bid,” CNN News (5 November 2002); Internet, available from http://www.cnn.com, accessed on 11/19/02.&#x0A;    [B] Alena Kim “Intruder Apprehended in Kazakh Biological We</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p1">
+        <uri>http://www.w3.org/2001/vcard-rdf/3.0#ADR</uri>
+      </binding>
+      <binding name="o1">
+        <bnode>b0</bnode>
+      </binding>
+      <binding name="p2">
+        <uri>http://www.w3.org/2003/01/geo/wgs84_pos#Point</uri>
+      </binding>
+      <binding name="o2">
+        <bnode>b1</bnode>
+      </binding>
+      <binding name="p3">
+        <uri>http://www.w3.org/2003/01/geo/wgs84_pos#long</uri>
+      </binding>
+      <binding name="o3">
+        <literal>76.912628</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p1">
+        <uri>http://www.w3.org/2001/vcard-rdf/3.0#ADR</uri>
+      </binding>
+      <binding name="o1">
+        <bnode>b0</bnode>
+      </binding>
+      <binding name="p2">
+        <uri>http://www.w3.org/2003/01/geo/wgs84_pos#Point</uri>
+      </binding>
+      <binding name="o2">
+        <bnode>b1</bnode>
+      </binding>
+      <binding name="p3">
+        <uri>http://www.w3.org/2003/01/geo/wgs84_pos#lat</uri>
+      </binding>
+      <binding name="o3">
+        <literal>43.255051</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p1">
+        <uri>http://www.w3.org/2001/vcard-rdf/3.0#ADR</uri>
+      </binding>
+      <binding name="o1">
+        <bnode>b0</bnode>
+      </binding>
+      <binding name="p2">
+        <uri>http://www.w3.org/2001/vcard-rdf/3.0#Country</uri>
+      </binding>
+      <binding name="o2">
+        <literal>Kazakhstan</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p1">
+        <uri>http://www.w3.org/2001/vcard-rdf/3.0#ADR</uri>
+      </binding>
+      <binding name="o1">
+        <bnode>b0</bnode>
+      </binding>
+      <binding name="p2">
+        <uri>http://www.w3.org/2001/vcard-rdf/3.0#Locality</uri>
+      </binding>
+      <binding name="o2">
+        <literal>Almaty</literal>
       </binding>
     </result>
     <result>

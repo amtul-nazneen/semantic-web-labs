@@ -60,27 +60,6 @@
             <rdfs:seeAlso rdf:resource="http://ymen.com"/>
           </foaf:Person>
         </foaf:knows>
-        <foaf:knows>
-          <foaf:Person>
-            <foaf:name>Kitty Pride</foaf:name>
-            <foaf:mbox rdf:resource="mailto:nanusmily@gmail.com"/>
-            <rdfs:seeAlso rdf:resource="http://xmen.com"/>
-          </foaf:Person>
-        </foaf:knows>
-        <foaf:knows>
-          <foaf:Person>
-            <foaf:name>Ororo Munroe</foaf:name>
-            <foaf:mbox rdf:resource="mailto:ororo@hotmail.com"/>
-            <rdfs:seeAlso rdf:resource="http://zmen.com"/>
-          </foaf:Person>
-        </foaf:knows>
-        <foaf:knows>
-          <foaf:Person>
-            <foaf:name>Raven Rogue</foaf:name>
-            <foaf:mbox rdf:resource="mailto:raven@utdallas.edu"/>
-            <rdfs:seeAlso rdf:resource="http://ymen.com"/>
-          </foaf:Person>
-        </foaf:knows>
       </foaf:Person>
     </foaf:maker>
     <foaf:primaryTopic rdf:resource="http://org.semwebprogramming/chapter2/people#me"/>

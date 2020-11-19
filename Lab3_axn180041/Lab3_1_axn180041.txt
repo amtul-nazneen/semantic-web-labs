@@ -1,16 +1,21 @@
-                   									******** SPARQL Queries *****************
-
-1. A query that gives the subject IRI where the formatted name is Jane Smith.
+#Query 1
+PREFIX vcard:   <http://www.w3.org/2001/vcard-rdf/3.0#>
 SELECT ?x
-WHERE { ?x  <http://www.w3.org/2001/vcard-rdf/3.0#FN>  "Jane Smith" }
-=============================================================================================
+WHERE { ?x  vcard:FN  "Jane Smith" }
+Result:
+Jane Smith
 
-2. A query that lists all the formatted names in the data.
+#Query 2
+PREFIX vcard:   <http://www.w3.org/2001/vcard-rdf/3.0#>
 SELECT ?z
-WHERE { ?x  <http://www.w3.org/2001/vcard-rdf/3.0#FN>  ?z }
-=============================================================================================
+WHERE { ?x  vcard:FN  ?z }
+Results:
+Sarah Parker
+Matt Parker
+Bobby Smith
+Jane Smith
 
-3. A query that lists the IRIs, formatted names, and ages of all people for which we have both formatted name and age.
+#Query 3
 PREFIX info:    <http://somewhere/peopleInfo#>
 PREFIX vcard:   <http://www.w3.org/2001/vcard-rdf/3.0#>
 SELECT ?name ?age
@@ -19,9 +24,14 @@ WHERE
     ?person vcard:FN  ?name .
     ?person info:age ?age .
 }
-=============================================================================================
+Results:
+Name 		    age
+Sarah Parker 	25
+Matt Parker 	23
+Bobby Smith 	27
 
-4.  A query that lists a person’s IRI, formatted name, and age of people whose age is 25 or more.
+
+#Query 4
 PREFIX info:    <http://somewhere/peopleInfo#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX vcard:   <http://www.w3.org/2001/vcard-rdf/3.0#>
@@ -32,10 +42,12 @@ WHERE
     ?person info:age ?age . 
 FILTER (xsd:integer(?age) >= 25)
 }
-=============================================================================================
+Results:
+Name 		    age
+Sarah Parker 	25
+Bobby Smith 	27
 
-5. A query to list the IRI and given names of all people for which we have both formatted name and age.
-Query: 
+#Query 5 
 PREFIX info:    <http://somewhere/peopleInfo#>
 PREFIX vcard:   <http://www.w3.org/2001/vcard-rdf/3.0#>
 SELECT ?given ?person
@@ -46,4 +58,7 @@ WHERE
     ?name vcard:Given ?given .
     ?person info:age ?age .
 }
-=============================================================================================
+Given 	   Person
+Sarah 	   Sarah Parker
+Bobby 	   Robert Smith
+Matthew    Matt Parker

@@ -46,21 +46,6 @@
                                   foaf:mbox     <mailto:raven@utdallas.edu> ;
                                   foaf:name     "Raven Rogue"
                                 ] ;
-        foaf:knows              [ a             foaf:Person ;
-                                  rdfs:seeAlso  <http://xmen.com> ;
-                                  foaf:mbox     <mailto:nanusmily@gmail.com> ;
-                                  foaf:name     "Kitty Pride"
-                                ] ;
-        foaf:knows              [ a             foaf:Person ;
-                                  rdfs:seeAlso  <http://zmen.com> ;
-                                  foaf:mbox     <mailto:ororo@hotmail.com> ;
-                                  foaf:name     "Ororo Munroe"
-                                ] ;
-        foaf:knows              [ a             foaf:Person ;
-                                  rdfs:seeAlso  <http://ymen.com> ;
-                                  foaf:mbox     <mailto:raven@utdallas.edu> ;
-                                  foaf:name     "Raven Rogue"
-                                ] ;
         foaf:mbox               <mailto:nanusmily@gmail.com> ;
         foaf:name               "Nazneen Amtul" ;
         foaf:nick               "Amtul" ;

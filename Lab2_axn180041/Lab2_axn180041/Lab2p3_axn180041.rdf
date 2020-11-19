@@ -1,0 +1,82 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:j.0="http://utdallas/semclass#">
+  <j.0:Person rdf:about="http://utdallas/semclass#Author_H.G_Wells">
+    <j.0:Authored>
+      <j.0:Book rdf:about="http://utdallas/semclass#Book_TimeMachine">
+        <j.0:MadeToMovie>
+          <j.0:Movie rdf:about="http://utdallas/semclass#Book_TimeMachine_Movie2">
+            <j.0:DirectedBy>
+              <j.0:Person rdf:about="http://utdallas/semclass#Book_TimeMachine_Movie2_Director">
+                <vcard:Country>United States</vcard:Country>
+                <vcard:NAME>David Koepp</vcard:NAME>
+              </j.0:Person>
+            </j.0:DirectedBy>
+            <dc:language>Korean</dc:language>
+            <dc:title>The Time Machine</dc:title>
+          </j.0:Movie>
+        </j.0:MadeToMovie>
+        <j.0:MadeToMovie>
+          <j.0:Movie rdf:about="http://utdallas/semclass#Book_TimeMachine_Movie1">
+            <j.0:DirectedBy>
+              <j.0:Person rdf:about="http://utdallas/semclass#Book_TimeMachine_Movie1_Director">
+                <vcard:Country>United States</vcard:Country>
+                <vcard:NAME>David Koepp</vcard:NAME>
+              </j.0:Person>
+            </j.0:DirectedBy>
+            <dc:language>French</dc:language>
+            <dc:title>The Time Machine</dc:title>
+          </j.0:Movie>
+        </j.0:MadeToMovie>
+        <j.0:Year>2000</j.0:Year>
+        <j.0:Title>The Time Machine</j.0:Title>
+      </j.0:Book>
+    </j.0:Authored>
+    <j.0:Authored>
+      <j.0:Book rdf:about="http://utdallas/semclass#Book_WarOfWorlds">
+        <j.0:MadeToRadio>
+          <j.0:Radio rdf:about="http://utdallas/semclass#Book_WarOfWorlds_Radio1">
+            <j.0:WrittenBy>
+              <j.0:Person rdf:about="http://utdallas/semclass#Book_WarOfWorlds_Radio1_Writer">
+                <vcard:Country>United Kingdom</vcard:Country>
+                <vcard:NAME>Josh Friedman</vcard:NAME>
+              </j.0:Person>
+            </j.0:WrittenBy>
+            <dc:publisher>Warner Brothers</dc:publisher>
+            <dc:title>The War of the Worlds</dc:title>
+          </j.0:Radio>
+        </j.0:MadeToRadio>
+        <j.0:MadeToMovie>
+          <j.0:Movie rdf:about="http://utdallas/semclass#Book_WarOfWorlds_Movie2">
+            <j.0:DirectedBy>
+              <j.0:Person rdf:about="http://utdallas/semclass#Book_WarOfWorlds_Movie2_Director">
+                <vcard:Country>United States</vcard:Country>
+                <vcard:NAME>Steven Spielberg</vcard:NAME>
+              </j.0:Person>
+            </j.0:DirectedBy>
+            <dc:language>English</dc:language>
+            <dc:title>The War of the Worlds</dc:title>
+          </j.0:Movie>
+        </j.0:MadeToMovie>
+        <j.0:MadeToMovie>
+          <j.0:Movie rdf:about="http://utdallas/semclass#Book_WarOfWorlds_Movie1">
+            <j.0:DirectedBy>
+              <j.0:Person rdf:about="http://utdallas/semclass#Book_WarOfWorlds_Movie1_Director">
+                <vcard:Country>United States</vcard:Country>
+                <vcard:NAME>David Koepp</vcard:NAME>
+              </j.0:Person>
+            </j.0:DirectedBy>
+            <dc:language>French</dc:language>
+            <dc:title>The War of the Worlds</dc:title>
+          </j.0:Movie>
+        </j.0:MadeToMovie>
+        <j.0:Year>1990</j.0:Year>
+        <j.0:Title>The War of the Worlds</j.0:Title>
+      </j.0:Book>
+    </j.0:Authored>
+    <vcard:Given>H.G</vcard:Given>
+    <vcard:FN>Wells</vcard:FN>
+  </j.0:Person>
+</rdf:RDF>
